@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zhouyuxing.memoryassistant.LoginActivity">
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginRight="66dp"
+        android:layout_marginBottom="32dp"
+        android:textSize="20sp"
+        android:text="@string/app_welcome_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/etusername"
+        android:hint="@string/app_welcome_username"
+        android:singleLine="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/etpassword"
+        android:hint="@string/app_welcome_password"
+        android:singleLine="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnscan"
+        android:theme="@style/AppTheme.Brand.Button"
+        android:textColor="@color/icons"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扫码上传资料" />
+
+    <Button
+        android:id="@+id/btnstart"
+        android:theme="@style/AppTheme.Brand.Button"
+        android:textColor="@color/icons"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始练习" />
+    <Button
+        android:id="@+id/btnjj"
+        android:theme="@style/AppTheme.Brand.Button"
+        android:textColor="@color/icons"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="竞技场" />
+    <Button
+        android:id="@+id/btnlog"
+        android:theme="@style/AppTheme.Brand.Button"
+        android:textColor="@color/icons"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登陆" />
+    <Button
+        android:id="@+id/btnwjmm"
+        android:theme="@style/AppTheme.Brand.Button"
+        android:textColor="@color/icons"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="忘记密码" />
+
+    <Button
+        android:id="@+id/btnreg"
+        android:theme="@style/AppTheme.Brand.Button"
+        android:textColor="@color/icons"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册" />
+
+    <Button
+        android:id="@+id/btnchatlog"
+        android:theme="@style/AppTheme.Brand.Button"
+        android:textColor="@color/icons"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看信箱" />
+    <Button
+        android:id="@+id/btnenter"
+        android:theme="@style/AppTheme.Brand.Button"
+        android:textColor="@color/icons"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="短消息" />
+    <Button
+        android:id="@+id/btnlogout"
+        android:theme="@style/AppTheme.Brand.Button"
+        android:textColor="@color/icons"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登出" />
+    <Button
+        android:id="@+id/btnupdate"
+        android:theme="@style/AppTheme.Brand.Button"
+        android:textColor="@color/icons"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更新" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviewresponse" />
+</LinearLayout>

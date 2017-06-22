@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar" android:id="@+id/toolbar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/editTextLayout"
+        android:layout_below="@+id/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/editTextLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/editrecv"
+            android:layout_margin="5dp"
+            android:singleLine="true"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:hint="收信"
+            />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/editTextMessage"
+            android:layout_margin="5dp"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:layout_width="230dp"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:id="@+id/sendImage"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:padding="8dp"
+            android:src="@android:drawable/ic_menu_send" />
+    </LinearLayout>
+
+
+</RelativeLayout>

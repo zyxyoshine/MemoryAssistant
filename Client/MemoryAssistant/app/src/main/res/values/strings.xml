@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MemoryAssistant</string>
+    <string name="server_url">http://192.168.3.23:2652</string>
+    <string name="app_welcome_chat">欢迎使用记忆助手</string>
+    <string name="app_welcome_password">请输入密码</string>
+    <string name="app_welcome_username">请输入用户名</string>
+    <string name="app_welcome_button">进入</string>
+    <string name="app_network_error">连接失败，确认地址</string>
+
+</resources>
